@@ -1,0 +1,38 @@
+[project]
+name = "clip-mrnn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "detectron2==0.6+pt2.2.2cu121",
+    "numpy<2",
+    "pillow<10",
+    "setuptools>=80.9.0",
+    "torch==2.2.2+cu121",
+    "torchaudio==2.2.2+cu121",
+    "torchvision==0.17.2+cu121",
+]
+
+[tool.uv]
+index-strategy = "unsafe-best-match"
+
+[[tool.uv.index]]
+url = "https://miropsota.github.io/torch_packages_builder"
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu121"
+
+[tool.uv.workspace]
+members = [
+    "temp/detectron2",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "ninja>=1.13.0",
+]
