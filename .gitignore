@@ -11,3 +11,14 @@ wheels/
 
 # IDE
 .idea
+
+# test
+*test.ipynb
+*test.py
+*test/
+
+# dirs
+model/
+data/
+output/
+
