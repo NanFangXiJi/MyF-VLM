@@ -13,9 +13,9 @@ wheels/
 .idea
 
 # test
-*test.ipynb
-*test.py
-*test/
+*test*.ipynb
+*test*.py
+*test*/
 
 # dirs
 model/
