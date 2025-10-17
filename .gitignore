@@ -22,3 +22,5 @@ model/
 data/
 output/
 
+# json
+*.json
