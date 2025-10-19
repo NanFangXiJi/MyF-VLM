@@ -425,7 +425,7 @@ requires-dist = [
     { name = "numpy", specifier = "<2" },
     { name = "opencv-python", specifier = ">=4.11.0.86" },
     { name = "pillow", specifier = "<10" },
-    { name = "setuptools", specifier = ">=80.9.0" },
+    { name = "setuptools", specifier = "==80.9.0" },
     { name = "torch", specifier = "==2.2.2+cu121" },
     { name = "torchaudio", specifier = "==2.2.2+cu121" },
     { name = "torchvision", specifier = "==0.17.2+cu121" },
