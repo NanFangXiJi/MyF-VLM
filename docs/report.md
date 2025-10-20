@@ -121,7 +121,7 @@ CLIP 的图像编码器在 F-VLM 中被描述为有两部分，分别是特征�
 
 本方案在 COCO 数据集上进行了微调训练。由于时间限制，仅在训练集上完整训练了1 epoch。这可能会对模型结果产生影响。
 
-我使用微调了1个epoch的模型在完整的 COCO 测试集上进行了评估。评估的图片见[`output/output_final`](../output/output_final)。
+我使用微调了1个epoch的模型在完整的 COCO 测试集上进行了评估。评估的图片见[`output/output_final`](../output/output_final)。 由于图片这些输出图片过多，因此实际提交时仅取其中10张留在里面。
 
 ### 实例检测任务性能
 
