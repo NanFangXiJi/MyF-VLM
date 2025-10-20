@@ -9,6 +9,7 @@ dependencies = [
     "numpy<2",
     "opencv-python>=4.11.0.86",
     "pillow<10",
+    "scikit-learn>=1.7.2",
     "setuptools==80.9.0",
     "torch==2.2.2+cu121",
     "torchaudio==2.2.2+cu121",
