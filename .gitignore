@@ -21,7 +21,6 @@ wheels/
 model/
 data/
 output/
-docs/
 
 # json
 *.json
